@@ -94,8 +94,15 @@ input,select{
   display: flex;
   justify-content: space-between;
   gap: 3rem;
+  
 }
 
 .filter-options div{
   flex: 1 1 0;
+}
+
+@media (max-height:850px){
+  body {
+    height: 920px;
+  }
 }
